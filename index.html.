@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vince Balin's Personal Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1e1e1e;
+            color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #777 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: left;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        header #branding {
+            float: left;
+        }
+        header #branding h1 {
+            margin: 0;
+        }
+        header nav {
+            float: right;
+            margin-top: 10px;
+        }
+        section {
+            padding: 20px 0 20px 0;
+        }
+        .dark {
+            padding: 15px;
+            background: #333;
+            color: #fff;
+        }
+        footer {
+            padding: 20px;
+            margin-top: 20px;
+            color: #fff;
+            background-color: #333;
+            text-align: center;
+        }
+        .medieval-theme {
+            font-family: 'Cinzel', serif;
+            background-image: url('https://images.unsplash.com/photo-1517685633533-810aa3abb2fa');
+            background-size: cover;
+            background-blend-mode: multiply;
+        }
+        .medieval-theme header,
+        .medieval-theme footer {
+            background: rgba(51, 51, 51, 0.8);
+        }
+    </style>
+</head>
+<body class="medieval-theme">
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Vince Balin</h1>
+                <p>College Student</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>I'm an accountancy student at Asia Career College. This website is for creating reviewers for my current subjects.</p>
+    </section>
+
+    <section id="portfolio" class="container dark">
+        <h2>Portfolio</h2>
+        <p>Here I provide questions and answers to help myself technically, and anyone who might be interested.</p>
+    </section>
+
+    <section id="blog" class="container">
+        <h2>Blog</h2>
+        <h3>Accounting</h3>
+        <p>Content about accounting...</p>
+        <h3>Ethics & Life</h3>
+        <p>Content about ethics and life...</p>
+    </section>
+
+    <section id="contact" class="container dark">
+        <h2>Contact</h2>
+        <p>Email: vincegiovanne@gmail.com</p>
+    </section>
+
+    <footer>
+        <p>Vince Balin &copy; 2024</p>
+    </footer>
+</body>
+</html>
